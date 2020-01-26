@@ -2146,7 +2146,7 @@
     #define Y_STALL_SENSITIVITY  40
     //#define Z_STALL_SENSITIVITY  8
     //#define SPI_ENDSTOPS              // TMC2130 only
-    #define IMPROVE_HOMING_RELIABILITY
+    //#define IMPROVE_HOMING_RELIABILITY // Causes no movement on TMC2130
   #endif
 
   /**

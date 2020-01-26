@@ -1066,12 +1066,12 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 196
-#define Y_BED_SIZE 188
+#define X_BED_SIZE 207
+#define Y_BED_SIZE 187
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -43
-#define Y_MIN_POS -26
+#define X_MIN_POS -38
+#define Y_MIN_POS -25
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
@@ -1518,7 +1518,7 @@
  * Attention: EXPERIMENTAL. G-code arguments may change.
  *
  */
-#define NOZZLE_CLEAN_FEATURE
+//#define NOZZLE_CLEAN_FEATURE
 
 #if ENABLED(NOZZLE_CLEAN_FEATURE)
   // Default number of pattern repetitions
