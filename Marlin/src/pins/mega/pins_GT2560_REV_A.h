@@ -40,9 +40,9 @@
 // Limit Switches
 //
 #define X_MIN_PIN          22
-#define X_MAX_PIN          24
+// #define X_MAX_PIN          24
 #define Y_MIN_PIN          26
-#define Y_MAX_PIN          28
+// #define Y_MAX_PIN          28
 #define Z_MIN_PIN          30
 #define Z_MAX_PIN          32
 
@@ -65,9 +65,17 @@
 #define E0_DIR_PIN         45
 #define E0_ENABLE_PIN      41
 
-#define E1_STEP_PIN        49
-#define E1_DIR_PIN         47
-#define E1_ENABLE_PIN      48
+// #define E1_STEP_PIN        49
+// #define E1_DIR_PIN         47
+// #define E1_ENABLE_PIN      48
+
+//
+// TMC2130 Drivers
+//
+#define X_CS_PIN 24
+#define Y_CS_PIN 28
+#define Z_CS_PIN 47
+#define E0_CS_PIN 49
 
 //
 // Temperature Sensors
